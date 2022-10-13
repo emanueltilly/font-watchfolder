@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vMdFMmC/2DQOrFcEwOgldvaW9bOLSbfKJoF7wr58ve3c00PsG3kMX/3VraVMWJv4yu2Q2MCTD2EmisjgAm6C7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Emanuel GWD\\source\\repos\\emanueltilly\\font-watchfolder\\Code\\Font Watchfolder\\Font Watchfolder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emanuel GWD\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Emanuel GWD\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

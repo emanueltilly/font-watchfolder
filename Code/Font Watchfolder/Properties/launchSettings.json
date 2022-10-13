@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Font Watchfolder": {
+      "commandName": "Project",
+      "commandLineArgs": "--watchfolder \"\\\\192.168.250.10\\Emanuel\\Fonts WatchFolder\\\""
+    }
+  }
+}

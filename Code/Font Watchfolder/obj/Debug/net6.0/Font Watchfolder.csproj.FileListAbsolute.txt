@@ -1,0 +1,21 @@
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\Font Watchfolder.exe
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\Font Watchfolder.deps.json
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\Font Watchfolder.runtimeconfig.json
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\Font Watchfolder.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\Font Watchfolder.pdb
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.csproj.AssemblyReference.cache
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.AssemblyInfoInputs.cache
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.AssemblyInfo.cs
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.csproj.CoreCompileInputs.cache
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\refint\Font Watchfolder.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.pdb
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.genruntimeconfig.cache
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\ref\Font Watchfolder.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Emanuel GWD\source\repos\emanueltilly\font-watchfolder\Code\Font Watchfolder\obj\Debug\net6.0\Font Watchfolder.csproj.CopyComplete
