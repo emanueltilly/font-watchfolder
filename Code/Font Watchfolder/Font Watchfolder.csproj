@@ -6,11 +6,12 @@
     <RootNamespace>Font_Watchfolder</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ApplicationIcon>Icons\Icon.ico</ApplicationIcon>
+    <StartupObject>Font_Watchfolder.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="icon.ico" />
+    <Content Include="Icons\Icon.ico" />
   </ItemGroup>
 
   <ItemGroup>

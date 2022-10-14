@@ -77,14 +77,14 @@ namespace Font_Watchfolder
                     return false;
                 }
 
-                Console.WriteLine("\nSuccess!");
+                Console.WriteLine("Success!\n");
                 return true;
 
 
             }
             else
             {
-                Console.WriteLine("Font already in local font folder: " + contentFontName);
+                Console.WriteLine("Font already in local font folder, but not installed: " + contentFontName);
                 return false;
             }
         }
@@ -115,11 +115,15 @@ namespace Font_Watchfolder
                 //Skip non-font files
                 if (!FileIsFont(font)) { continue; }
 
+                //Generate name, skip if not able to get name
+                string tmpName = GetFontNameFromFile(font);
+                if (tmpName == null) { continue; }
+
                 //Create new font object
                 fontfile currentFont = new fontfile()
                 {
                     filepath = font,
-                    name = GetFontNameFromFile(font)
+                    name = tmpName
                 };
 
                 //Compare font to already installed fonts
@@ -144,6 +148,10 @@ namespace Font_Watchfolder
         {
             try
             {
+                
+                //Check if filename starts with a dot
+                if (Path.GetFileName(file).Substring(0, 1) == ".") { return false; }
+
                 List<string> allowedFiletypes = new List<string>();
 
                 allowedFiletypes.Add(".ttf");
@@ -166,8 +174,6 @@ namespace Font_Watchfolder
 
         private static string GetFontNameFromFile(string file)
         {
-            Random random = new Random();
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
             try
             {
@@ -178,10 +184,7 @@ namespace Font_Watchfolder
             catch (Exception ex)
             {
                 Console.WriteLine("ERROR GETTING FONT NAME FROM FILE - " + file + "\n" + ex.Message);
-
-                //Return random string to not accidentaly match up with any font
-                return new string(Enumerable.Repeat(chars, 20)
-                    .Select(s => s[random.Next(s.Length)]).ToArray());
+                return null;
             }
 
         }

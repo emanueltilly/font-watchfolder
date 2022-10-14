@@ -18,10 +18,9 @@ namespace Font_Watchfolder
             
 
             Console.WriteLine(""); Console.WriteLine("");
-            Console.WriteLine("Font Watchfolder \nVersion 0.1");
+            Console.WriteLine("Font Watchfolder \nVersion 0.3");
             Console.WriteLine("");
             Console.WriteLine("https://github.com/emanueltilly/font-watchfolder");
-            Console.WriteLine("This application is ");
             Console.WriteLine(""); Console.WriteLine("");
 
             //Check if running as administrator
@@ -63,8 +62,11 @@ namespace Font_Watchfolder
 
             Console.WriteLine("Watchfolder: " + userSourceFolderPath + "\n");
 
+            Console.WriteLine("\nINITIAL SCAN WILL START IN 30 SECONDS!\nEXIT THIS APPLICATION NOW IF YOU WISH TO CANCEL THE AUTOMATIC INSTALL OF MISSING FONTS!");
 
-            Console.WriteLine("Performing initial scan...");
+            Thread.Sleep(30000);
+
+            Console.WriteLine("\nPerforming initial scan...");
             RunScan();
 
 
@@ -130,15 +132,21 @@ namespace Font_Watchfolder
             if (missingFont == null) { Console.WriteLine(DateTime.Now.ToString() + " - No missing fonts"); }
             else
             {
+                int totalCount = missingFont.Count;
+                int installedCount = 0;
                 Console.WriteLine(DateTime.Now.ToString() + " - Scan found " + missingFont.Count.ToString() + " missing fonts");
 
                 //Install missing fonts
                 foreach (fontfile font in missingFont)
                 {
-                    FontHandling.RegisterFont(font.filepath);
+                    bool sucess = FontHandling.RegisterFont(font.filepath);
+                    if (sucess) { installedCount++; }
                 }
+
+                Console.WriteLine("Installed " + installedCount + " of " + totalCount + " fonts successfully!\n");
             }
 
+            
             t.Start();
             scanEnabled = false;
         }
